@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_htc816g.mk
+    $(LOCAL_DIR)/device_816g.mk
 
