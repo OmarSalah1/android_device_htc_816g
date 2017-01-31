@@ -1,0 +1,3 @@
+# RIL
+PRODUCT_PACKAGES += \
+    libmt6592
