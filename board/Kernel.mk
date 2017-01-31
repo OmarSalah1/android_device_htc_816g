@@ -1,0 +1,8 @@
+# Kernel informations
+BOARD_KERNEL_BASE := 0x10000000
+BOARD_KERNEL_PAGESIZE := 2048
+BOARD_KERNEL_CMDLINE :=
+
+# Kernel properties
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
+TARGET_KMODULES := true
