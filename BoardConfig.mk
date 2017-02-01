@@ -26,3 +26,8 @@ include $(LOCAL_PATH)/board/*.mk
 # Hack for build
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 
+# Sense8
+TARGET_HTC_BOOT := true
+
+TARGET_RELEASETOOLS_EXTENSIONS := device/htc/816g
+
