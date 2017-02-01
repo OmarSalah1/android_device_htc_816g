@@ -8,4 +8,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.mt6592.usb.rc:root/init.mt6592.usb.rc \
     $(LOCAL_PATH)/rootdir/enableswap.sh:root/enableswap.sh \
     $(LOCAL_PATH)/rootdir/factory_init.rc:root/factory_init.rc \
+    $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab \
     $(LOCAL_KERNEL):kernel
