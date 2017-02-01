@@ -6,3 +6,8 @@ BOARD_KERNEL_CMDLINE :=
 # Kernel properties
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 TARGET_KMODULES := true
+
+# Kernel configs
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/MTKbootimg.mk
+BOARD_CUSTOM_BOOTIMG := true
+
