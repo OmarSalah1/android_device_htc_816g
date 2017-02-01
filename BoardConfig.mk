@@ -22,3 +22,7 @@ include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
 -include vendor/htc/816g/BoardConfigVendor.mk
+
+# Hack for build
+$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
+
