@@ -17,24 +17,24 @@
 #Building Status
 | Feature             | Status |
 | :-------------------| :------|
-| `Booting`           | ? |
-| `WiFi`              | ? |
-| `Bluetooth`         | ? |
-| `GPS`               | ? |
-| `Sensors`           | ? |
-| `RIL`               | ? |
-| `SELinux`           | ? |
-| `Battery`           | ? |
-| `Screen Record`     | ? |
-| `Off-Line Charging` | ? |
-| `Dual SIM`          | ? |
-| `HD games`          | ? |
-| `Tethering`         | ? |
-| `FMRadio`           | ? |
-| `KEYS & Buttons     | ? |
-| `Camera`            | ? |
-| `VPN`               | ? |
-| `2g/3g Switcher`    | ? |
+| `Booting`           | YES |
+| `WiFi`              | YES |
+| `Bluetooth`         | YES |
+| `GPS`               | NO |
+| `Sensors`           | NO |
+| `RIL`               | YES |
+| `SELinux`           | YES |
+| `Battery`           | YES |
+| `Screen Record`     | YES |
+| `Off-Line Charging` | YES |
+| `Dual SIM`          | YES |
+| `HD games`          | YES |
+| `Tethering`         | YES |
+| `FMRadio`           | YES |
+| `KEYS & Buttons     | NO |
+| `Camera`            | NO |
+| `VPN`               | NO |
+| `2g/3g Switcher`    | NO |
 
 #Build Command
 Full ROM:
