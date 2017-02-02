@@ -30,6 +30,11 @@
 | `Dual SIM`          | ? |
 | `HD games`          | ? |
 | `Tethering`         | ? |
+| `FMRadio`           | ? |
+| `KEYS & Buttons     | ? |
+| `Camera`            | ? |
+| `VPN`               | ? |
+| `2g/3g Switcher`    | ? |
 
 #Build Command
 Full ROM:
