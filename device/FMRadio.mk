@@ -9,3 +9,6 @@ PRODUCT_PACKAGES += \
     libfmmt6630 \
     libmtkplayer
 
+# Set default player to AwesomePlayer
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.media.use-awesome=true
