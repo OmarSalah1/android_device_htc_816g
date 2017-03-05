@@ -102,16 +102,16 @@ char const*const RED_DELAY_OFF_FILE
 
 /* GREEN LED */
 char const*const GREEN_LED_FILE
-        = "/sys/class/leds/green/brightness";
+        = "/sys/class/leds/greenled/brightness";
 
 char const*const GREEN_TRIGGER_FILE
-        = "/sys/class/leds/green/trigger";
+        = "/sys/class/leds/greenled/trigger";
 
 char const*const GREEN_DELAY_ON_FILE
-        = "/sys/class/leds/green/delay_on";
+        = "/sys/class/leds/greenled/delay_on";
 
 char const*const GREEN_DELAY_OFF_FILE
-        = "/sys/class/leds/green/delay_off";
+        = "/sys/class/leds/greenled/delay_off";
 
 /* BLUE LED */
 char const*const BLUE_LED_FILE
@@ -341,6 +341,7 @@ blink_blue(int level, int onMS, int offMS)
 		write_str(BLUE_TRIGGER_FILE, "timer");
 		while (((access(BLUE_DELAY_OFF_FILE, F_OK) == -1) || (access(BLUE_DELAY_OFF_FILE, R_OK|W_OK) == -1)) && i<10) {
 			ALOGD("BLUE_DELAY_OFF_FILE doesn't exist or cannot write!!\n");
+			led_wait_delay(5);//sleep 5ms for wait kernel LED class create led delay_off/delay_on node of fs
 			i++;
 		}
 		write_int(BLUE_DELAY_OFF_FILE, offMS);
@@ -462,25 +463,18 @@ set_speaker_light_locked(struct light_device_t* dev,
     	red = green = blue = 0;
     }
 
+    blink_red(0, 0, 0);
+    blink_green(0, 0, 0);
+    blink_blue(0, 0, 0);
+
     if (red) {
-        blink_green(0, 0, 0);
-        blink_blue(0, 0, 0);
         blink_red(red, onMS, offMS);
     }
-    else if (green) {
-        blink_red(0, 0, 0);
-        blink_blue(0, 0, 0);
+    if (green) {
         blink_green(green, onMS, offMS);
     }
-    else if (blue) {
-        blink_red(0, 0, 0);
-        blink_green(0, 0, 0);
+    if (blue) {
         blink_blue(blue, onMS, offMS);
-    }
-    else {
-        blink_red(0, 0, 0);
-        blink_green(0, 0, 0);
-        blink_blue(0, 0, 0);
     }
 
     return 0;
