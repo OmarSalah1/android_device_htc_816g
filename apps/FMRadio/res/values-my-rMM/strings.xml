@@ -1,107 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">FM ရေဒီယို</string>
-    <string name="favorite_manager">ချန်နယ် စာရင်း</string>
-    <string name="add_to_favorite">အနှစ်သက်ဆုံးထဲသို့ ထည့်ရန်</string>
-    <string name="optmenu_search">ရှာဖွေရန်</string>
-    <string name="optmenu_exit">ထွက်ရန်</string>
-    <string name="contmenu_title">လုပ်ငန်းများ</string>
-    <string name="contmenu_item_edit">တည်းဖြတ်ရန်</string>
-    <string name="contmenu_item_delete">အနှစ်သက်ဆုံးထဲမှ ဖယ်ရှားရန်</string>
-    <string name="dlg_noantenna_text">ဧရိယာတိုင်အဖြစ် နားကြပ်လိုအပ်သည်။ သင့်နားကြပ်ကြိုးတပ်ပါ။</string>
-    <string name="dlg_noantenna_title">နားကြပ်ကို တပ်လိုက်ပါ</string>
-    <string name="btn_yes">မှန်</string>
-    <string name="btn_no">မှား</string>
-    <string name="btn_ok">လုပ်မည်</string>
-    <string name="btn_cancel">ပယ်ဖျက်</string>
-    <string name="dlg_progress_title">ရှာဖွေရန်</string>
-    <string name="dlg_progress_text">ချန်နယ်များကို ရှာရန်…</string>
-    <string name="dlg_addedit_station_name">အမည်-</string>
-    <string name="dlg_addedit_station_freq">ကြိမ်နှုန်း-</string>
-    <string name="dlg_addedit_title_edit">ချန်နယ်ကို တည်းဖြတ်ရန်</string>
-    <string name="default_station_name">ချန်နယ်အသစ်</string>
-    <string name="dlg_delete_confirm_title">အနှစ်သက်ဆုံးများမှ ဖယ်ရှားရန် အတည်ပြုပါ</string>
-    <string name="dlg_delete_confirm_text">အနှစ်သက်ဆုံးများမှ ဤချန်နယ်ကို သင်ဖယ်ရှားလိုသည်မှာ သေချာပါသလား။</string>
-    <string name="toast_favorite_full">ပြည့်နေသောကြောင့် အနှစ်သက်ဆုံးစာရင်းထဲ့သို့ ချန်နယ်ကို ထပ်မထည့်နိုင်ပါ။</string>
-    <string name="toast_already_favorite">ဤချန်နယ်သည် အနှစ်သက်ဆုံးစာရင်းထဲတွင် ရှိပြီးဖြစ်သည်</string>
-    <string name="toast_channel_deleted">အနှစ်သက်ဆုံးများမှ အောင်မြင်စွာ ဖယ်ရှားပြီးဖြစ်သည်။</string>
-    <string name="toast_channel_added">အနှစ်သက်ဆုံးများထဲသို့ အောင်မြင်စွာ ထည့်ပြီးဖြစ်သည်။</string>
-    <string name="toast_channel_searched">ရနိုင်သော ချန်နယ်များကို ရှာခဲ့သည်-</string>
-    <string name="toast_cannot_search">ရနိုင်သော ချန်နယ်များကို မရှာနိုင်ခဲ့ပါ-</string>
-    <string name="toast_invalid_frequency">လက်ရှိနေရာအတွက် ကြိမ်နှုန်း မမှန်ပါ။ မှန်ကန်သော အတိုင်းအတာ- ၈၇.၅-၁၀၈.၀</string>
-    <string name="toast_invalid_input">ထည့်သွင်းမှု မမှန်ကန်ပါ၊ မှန်ကန်သော တန်ဖိုးမှာ ၀ သို့မဟုတ် ၅။</string>
-    <string name="optmenu_rds_settings">RDS ဆက်တင်များ</string>
-    <string name="dlg_rds_settings_channel_information">ချန်နယ်အချက်အလက်များ</string>
-    <string name="dlg_rds_settings_alternative_frequency">အခြား ကြိမ်နှုန်း</string>
-    <string name="sound_mode">အသံနည်းစနစ်</string>
-    <string name="more">နောက်ထပ်</string>
-    <string name="power">ထပ်ကိန်း</string>
-    <string name="edit_frequency_overwrite_text">ထပ်ရေးရန်</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">ရေဒီယို အန်တီနာတစ်ခုအဖြစ် သုံးရန် သင့် နားကြပ်များကို တပ်ဆင်ပါ။</string>
-    <string name="fm_recorder_name">FM အသံဖမ်းစက်</string>
-    <string name="toast_recording_lost_warning">SD ဖယ်ရှားမှုကြောင့် သင်၏ အသံဖမ်းခြင်းသည် ပျောက်ဆုံးသွားလိမ့်မည်။</string>
-    <string name="toast_start_recording">အသံဖမ်းခြင်း စတင်ရန်</string>
-    <string name="toast_sdcard_missing">သင်၏ SD ကတ် ပျောက်နေသည်။</string>
-    <string name="toast_sdcard_insufficient_space">SD ကတ်နေရာလွတ် မလုံလောက်ပါ။</string>
-    <string name="toast_recorder_internal_error">အသံဖမ်းစက်တွင် အတွင်းပိုင်း ပြဿနာတစ်ခု ဖြစ်သည်။</string>
-    <string name="toast_player_internal_error">ဖွင့်စက်တွင် အတွင်းပိုင်း ပြဿနာတစ်ခု ဖြစ်သည်။</string>
-    <string name="toast_powerup_before_record_warning">FM ကို ဦးစွာ ဖွင့်ပါ။</string>
-    <string name="optmenu_record">FM ကို မှတ်တမ်းတင်ရန်</string>
-    <string name="btn_save_recording">သိမ်းရန်</string>
-    <string name="btn_discard_recording">စွန့်ပစ်ရန်</string>
-    <string name="edit_recording_name_hint">ဤနေရာတွင် ဖိုင်အမည်ကို ရေးသွင်းပါ</string>
-    <string name="dlg_save_recording_title">အသံဖမ်းနေသောဖိုင်ကို သိမ်းရန်</string>
-    <string name="dlg_save_recording_storage_warning">သိမ်းဆည်းနေရာ မလုံလောက်ပါ။ လက်ရှိအသံဖမ်းမှုကို သိမ်းလိုပါသလား။</string>
-    <string name="already_exists">ရှိပြီးဖြစ်သည်</string>
-    <string name="toast_in_call">သင်ဖုန်းခေါ်ဆိုနေစဉ် FM ရေဒီယိုဖွင့်၍မရပါ။</string>
-    <string name="empty_list">လိုင်းစာရင်းမှာ ဗလာဖြစ်နေသည်။</string>
-    <string name="optmenu_speaker">စပီကာ</string>
-    <string name="optmenu_earphone">နားကြပ်</string>
-    <string name="not_available">လောလောဆယ် မရနိုင်ပါ</string>
-    <string name="add_to_favorite1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များထဲသို့ ထည့်ရန်</string>  
-    <string name="contmenu_item_delete1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များထဲမှ ဖယ်ရှားရန်</string>  
-    <string name="dlg_delete_confirm_title1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များမှ ဖယ်ရှားရန် အတည်ပြုပါ</string>  
-    <string name="dlg_delete_confirm_text1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များမှ ဤချန်နယ်ကို သင်ဖယ်ရှားလိုသည်မှာ သေချာပါသလား။</string>  
-    <string name="toast_favorite_full1">ပြည့်နေသောကြောင့် ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်စာရင်းထဲ့သို့ ချန်နယ်ကို ထပ်မထည့်နိုင်ပါ။</string>  
-    <string name="toast_already_favorite1">ဤချန်နယ်သည် ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်စာရင်းထဲတွင် ရှိပြီးဖြစ်သည်</string>  
-    <string name="toast_channel_deleted1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များမှ အောင်မြင်စွာ ဖယ်ရှားပြီးဖြစ်သည်။</string>  
-    <string name="toast_channel_added1">ကြိုတင်သတ်မှတ်ထားသော ချန်နယ်များထဲသို့ အောင်မြင်စွာ ထည့်ပြီးဖြစ်သည်။</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"FM ရေဒီယို"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"နားထောင်နိုင်သော အသံလွှင့်ရုံများ ရှာတွေ့၏−"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"နားထောင်နိုင်သော အသံလွှင့်ရုံ ရှာမတွေ့ပါ။"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"စပီကာ"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"နားကြပ်"</string>
+    <string name="save" msgid="7204164791719833151">"သိမ်းဆည်းရန်"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"သင့် SD ကဒ် ရှာမတွေ့ပါ!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"SD ကဒ် နေရာ မလုံလောက်ပါ!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"အသံဖမ်းစက်တွင်း တစ်ခုခု မှားနေသည်!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"သိမ်းဆည်းရန်"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"ဖျက်သိမ်းရန်"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"ဤတွင် ဖိုင်အမည် ရိုက်ပါ။"</string>
+    <string name="already_exists" msgid="3665755106404888637">"ရှိပြီးဖြစ်၏"</string>
+    <string name="not_available" msgid="6709882926236090124">"လောလောဆယ် မရနိုင်ပါ။"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"ယခင် အသံလွှင့်ရုံ"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"ရေဒီယိုလှိုင်း လျှော့ရန်"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"ရေဒီယိုလှိုင်း တိုးရန်"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"အသံလွှင့်ရုံ နောက်တစ်ခု"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"စိတ်ကြိုက်များသို့ ထည့်ရန်"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"အသံ စ ဖမ်းရန်"</string>
+    <string name="more" msgid="8975740653205119861">"နောက်ထပ်"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"အသံဖမ်းနေခြင်း…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"FM ရေဒီယို ဖွင့် သို့ ပိတ်ရန်"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"စတင် အသံသွင်းရန်"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"အသံသွင်းပြီး သိမ်းထားခြင်းများ"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"ပြန်လည်ဆန်းသစ်ရန်"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"စတင်နားထောင်ရန်၊ နားကြပ်အား ပလပ်တပ်ပါ (အင်တာနာအဖြစ် သုံးရန်)။"</string>
+    <string name="station_title" msgid="4027617747760605320">"ရေဒီယို အသံလွှင့်ရုံ"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"အသံလွှင့်ရုံများ ရယူနေခြင်း"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"အသံလွှင့်ရုံများ မတွေ့ပါ။"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"သန်း"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"S"</string>
+    <string name="timer_default" msgid="8062388403825907344">"၀၀"</string>
+    <string name="record_title" msgid="8695283158200902780">"အသံဖမ်းနေခြင်း"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"အသံဖမ်းနေစဉ်"</string>
+    <string name="stop_record" msgid="4787351642158009287">"အသံဖမ်းခြင်း ရပ်ရန်"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"အသံသွင်းထားခြင်းအား သိမ်းမည်လား?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"အသံသွင်းထားသည်များ နားထောင်ရန်၊ Play Music app အား ဖွင့်ပါ။"</string>
+    <string name="favorites" msgid="2732520024474501799">"အကြိုက်ဆုံး"</string>
+    <string name="rename" msgid="1770973764866255260">"အမည်ပြောင်းရန်"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"အသံလွှင့်ရုံအမည် ရိုက်ထည့်ရန်"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"စိတ်ကြိုက်များမှ ဖယ်ရန်"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"အသံဖမ်းခြင်းအား သိမ်းထား၏။"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"အသံဖမ်းခြင်းအား သိမ်းမထားပါ။"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"နားထောင်ရန်"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"အသံလွှင့်ရုံအား နာမည်ပြောင်းထား၏။"</string>
 </resources>

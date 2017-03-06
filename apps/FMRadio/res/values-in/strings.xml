@@ -1,108 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">Radio FM</string>
-    <string name="favorite_manager">Daftar saluran</string>
-    <string name="add_to_favorite">Tambahkan ke Favorit</string>
-    <string name="optmenu_search">Cari</string>
-    <string name="optmenu_exit">Keluar</string>
-    <string name="contmenu_title">Operasi</string>
-    <string name="contmenu_item_edit">Edit</string>
-    <string name="contmenu_item_delete">Hapus dari favorit</string>
-    <string name="dlg_noantenna_text">Anda memerlukan earphone sebagai antena. Pasang earphone.</string>
-    <string name="dlg_noantenna_title">Pasang earphone?</string>
-    <string name="btn_yes">Ya</string>
-    <string name="btn_no">Tidak</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_cancel">Batal</string>
-    <string name="dlg_progress_title">Pindai</string>
-    <string name="dlg_progress_text">Pindai saluran…</string>
-    <string name="dlg_addedit_station_name">Nama:</string>
-    <string name="dlg_addedit_station_freq">Frekuensi:</string>
-    <string name="dlg_addedit_title_edit">Edit Saluran</string>
-    <string name="default_station_name">Saluran Baru</string>
-    <string name="dlg_delete_confirm_title">Konfirmasikan Penghapusan Saluran</string>
-    <string name="dlg_delete_confirm_text">Anda yakin ingin menghapus saluran ini?</string>
-    <string name="toast_favorite_full">Tidak dapat menambahkan saluran ke daftar favorit karena penuh.</string>
-    <string name="toast_already_favorite">Saluran ini sudah ada di daftar favorit.</string>
-    <string name="toast_channel_deleted">Berhasil dihapus dari favorit.</string>
-    <string name="toast_channel_added">Berhasil ditambahkan ke favorit.</string>
-    <string name="toast_channel_searched">Saluran tersedia yang dicari:</string>
-    <string name="toast_cannot_search">Tidak dapat mencari saluran yang tersedia.</string>
-    <string name="optmenu_rds_settings">Pengaturan RDS</string>
-    <string name="dlg_rds_settings_channel_information">Informasi saluran</string>
-    <string name="dlg_rds_settings_alternative_frequency">Frekuensi alternatif</string>
-    <string name="more">Aplikasi Lain</string>
-    <string name="power">Power</string>
-    <string name="sound_mode">Mode Suara</string>
-    <string name="edit_frequency_overwrite_text">"Timpa"</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">Pasang earphone untuk digunakan sebagai antena radio.</string>
-    <!-- For FM recording -->
-    <string name="fm_recorder_name">Perekam FM</string>
-    <string name="toast_recording_lost_warning">Perekaman Anda akan hilang karena penghapusan SD!</string>
-    <string name="toast_start_recording">Mulai merekam…</string>
-    <string name="toast_sdcard_missing">Kartu SD Anda tidak ada!</string>
-    <string name="toast_sdcard_insufficient_space">Kapasitas kartu SD tidak memadai!</string>
-    <string name="toast_recorder_internal_error">Terjadi kesalahan internal pada perekam!</string>
-    <string name="toast_player_internal_error">Terjadi kesalahan internal pada pemutar!</string>
-    <string name="toast_powerup_before_record_warning">Aktifkan FM terlebih dulu!</string>
-    <string name="optmenu_record">Rekam FM</string>
-    <string name="btn_save_recording">Simpan</string>
-    <string name="btn_discard_recording">Hapus</string>
-    <string name="edit_recording_name_hint">Ketik nama file di sini</string>
-    <string name="dlg_save_recording_title">Simpan file perekaman</string>
-    <string name="dlg_save_recording_storage_warning">Kapasitas penyimpanan tidak memadai! Anda ingin menyimpan perekaman saat ini?</string>
-    <string name="already_exists">Sudah ada</string>
-    <string name="toast_invalid_frequency">Frekuensi tidak valid untuk lokasi saat ini. Rentang frekuensi yang valid: 87,5-10,0.</string>
-    <string name="toast_invalid_input">Input terakhir tidak valid, nilai valid adalah 0 atau 5.</string>
-    <string name="toast_in_call">Anda tidak dapat mengaktifkan Radio FM saat menangani panggilan.</string>
-    <string name="empty_list">Daftar saluran kosong.</string>
-    <string name="optmenu_speaker">"Speaker"</string>
-    <string name="optmenu_earphone">Headset</string>
-    <string name="not_available">Tidak tersedia saat ini</string>
-    <string name="add_to_favorite1">Tambahkan ke daftar saluran standar</string>  
-    <string name="contmenu_item_delete1">Hapus dari daftar saluran standar</string>  
-    <string name="dlg_delete_confirm_title1">Konfirmasikan penghapusan dari daftar saluran standar</string>  
-    <string name="dlg_delete_confirm_text1">Anda yakin ingin menghapus saluran ini dari daftar saluran standar?</string>  
-    <string name="toast_favorite_full1">Tidak dapat menambahkan saluran ke daftar saluran standar karena sudah penuh.</string>  
-    <string name="toast_already_favorite1">Saluran ini sudah ada dalam daftar saluran standar.</string>  
-    <string name="toast_channel_deleted1">Berhasil dihapus dari saluran standar.</string>  
-    <string name="toast_channel_added1">Berhasil ditambahkan ke saluran standar.</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"Radio FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"Stasiun radio yang saat ini tersedia:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"Gagal mencari stasiun radio yang tersedia."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"Speaker"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"Earphone"</string>
+    <string name="save" msgid="7204164791719833151">"Simpan"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"Kartu SD tidak ada!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"Memori kartu SD tidak cukup!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"Terjadi kesalahan internal pada perekam!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"Simpan"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"Buang"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"Ketikkan nama file di sini"</string>
+    <string name="already_exists" msgid="3665755106404888637">"sudah ada"</string>
+    <string name="not_available" msgid="6709882926236090124">"Saat ini tidak tersedia"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"Stasiun radio sebelumnya"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"Turunkan frekuensi"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"Naikkan frekuensi"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"Stasiun radio berikutnya"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"Tambahkan ke favorit"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"Mulai merekam"</string>
+    <string name="more" msgid="8975740653205119861">"Lainnya"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"Merekam..."</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"Putar atau stop radio FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"Mulai merekam"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"Rekaman tersimpan"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"Segarkan"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"Untuk mulai mendengarkan, colokkan headphone (berfungsi sebagai antena)."</string>
+    <string name="station_title" msgid="4027617747760605320">"Stasiun Radio"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"Mendapatkan stasiun radio"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"Stasiun radio tidak ditemukan"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"m"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"d"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"Merekam"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"Sedang merekam"</string>
+    <string name="stop_record" msgid="4787351642158009287">"BERHENTI MEREKAM"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"Simpan rekaman?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"Untuk mendengarkan rekaman, buka aplikasi Play Musik."</string>
+    <string name="favorites" msgid="2732520024474501799">"Favorit"</string>
+    <string name="rename" msgid="1770973764866255260">"Ganti nama"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"Masukkan nama stasiun radio"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"Hapus favorit"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"Rekaman disimpan"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"Rekaman tidak disimpan"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"DENGARKAN"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"Stasiun radio ini telah berganti nama"</string>
 </resources>

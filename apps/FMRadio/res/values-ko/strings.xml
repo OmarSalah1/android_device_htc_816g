@@ -1,107 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">FM 라디오</string>
-    <string name="favorite_manager">채널 목록</string>
-    <string name="add_to_favorite">즐겨찾기에 추가</string>
-    <string name="optmenu_search">검색</string>
-    <string name="optmenu_exit">종료</string>
-    <string name="contmenu_title">작업</string>
-    <string name="contmenu_item_edit">편집</string>
-    <string name="contmenu_item_delete">즐겨찾기에서 제거</string>
-    <string name="dlg_noantenna_text">안테나로 이어폰이 필요합니다. 이어폰을 연결하십시오.</string>
-    <string name="dlg_noantenna_title">이어폰에 연결</string>
-    <string name="btn_yes">예</string>
-    <string name="btn_no">아니요</string>
-    <string name="btn_ok">확인</string>
-    <string name="btn_cancel">취소</string>
-    <string name="dlg_progress_title">검색</string>
-    <string name="dlg_progress_text">채널을 검색하는 중...</string>
-    <string name="dlg_addedit_station_name">이름:</string>
-    <string name="dlg_addedit_station_freq">주파수:</string>
-    <string name="dlg_addedit_title_edit">주파수 편집</string>
-    <string name="default_station_name">새 주파수</string>
-    <string name="dlg_delete_confirm_title">즐겨찾기에서 제거 확인</string>
-    <string name="dlg_delete_confirm_text">이 채널을 즐겨찾기에서 제거하시겠습니까?</string>
-    <string name="toast_favorite_full">즐겨찾기 목록이 가득 차서 채널을 추가할 수 없습니다.</string>
-    <string name="toast_already_favorite">이 채널은 이미 즐겨찾기 목록에 있습니다.</string>
-    <string name="toast_channel_deleted">즐겨찾기에서 성공적으로 제거되었습니다.</string>
-    <string name="toast_channel_added">즐겨찾기에 성공적으로 추가되었습니다.</string>
-    <string name="toast_channel_searched">검색된 사용 가능한 채널:</string>
-    <string name="toast_cannot_search">사용 가능한 채널을 검색할 수 없습니다.</string>
-    <string name="toast_invalid_frequency">현재 위치에 대한 잘못된 주파수. 유효한 주파수 범위: 87.5-108.0</string>
-    <string name="toast_invalid_input">잘못된 입력, 유효한 값은 0 또는 5입니다.</string>
-    <string name="optmenu_rds_settings">RDS 설정</string>
-    <string name="dlg_rds_settings_channel_information">채널 정보</string>
-    <string name="dlg_rds_settings_alternative_frequency">대체 주파수</string>
-    <string name="sound_mode">사운드 모드</string>
-    <string name="more">자세히</string>
-    <string name="power">거듭제곱</string>
-    <string name="edit_frequency_overwrite_text">"덮어쓰기"</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">이어폰을 연결하여 라디오 안테나로서 사용하십시오.</string>
-    <string name="fm_recorder_name">FM 레코더</string>
-    <string name="toast_recording_lost_warning">SD 제거로 인해 녹음이 손실됩니다!</string>
-    <string name="toast_start_recording">녹음 시작...</string>
-    <string name="toast_sdcard_missing">SD 카드가 없습니다!</string>
-    <string name="toast_sdcard_insufficient_space">SD 카드 공간이 부족합니다!</string>
-    <string name="toast_recorder_internal_error">레코더에서 내부 오류가 발생했습니다!</string>
-    <string name="toast_player_internal_error">플레이어에서 내부 오류가 발생했습니다!</string>
-    <string name="toast_powerup_before_record_warning">먼저 FM 전원을 켜십시오!</string>
-    <string name="optmenu_record">FM 녹음</string>
-    <string name="btn_save_recording">저장</string>
-    <string name="btn_discard_recording">폐기</string>
-    <string name="edit_recording_name_hint">여기에 파일 이름을 입력</string>
-    <string name="dlg_save_recording_title">녹음 파일 저장</string>
-    <string name="dlg_save_recording_storage_warning">저장 공간이 부족합니다! 현재 녹음을 저장하시겠습니까?</string>
-    <string name="already_exists">이미 존재합니다</string>
-    <string name="toast_in_call">통화 중에는 FM 라디오를 시작할 수 없습니다.</string>
-    <string name="empty_list">채널 목록이 비어 있습니다.</string>
-    <string name="optmenu_speaker">"스피커"</string>
-    <string name="optmenu_earphone">헤드폰</string>
-    <string name="not_available">현재 사용할 수 없음</string>
-    <string name="add_to_favorite1">사전설정 채널에 추가</string>  
-    <string name="contmenu_item_delete1">사전설정 채널에서 제거</string>  
-    <string name="dlg_delete_confirm_title1">사전설정 채널에서 제거 확인</string>  
-    <string name="dlg_delete_confirm_text1">이 채널을 사전설정 채널에서 제거하시겠습니까?</string>  
-    <string name="toast_favorite_full1">사전설정 채널 목록이 가득 차서 채널을 추가할 수 없습니다.</string>  
-    <string name="toast_already_favorite1">이 채널은 이미 사전설정 채널 목록에 있습니다.</string>  
-    <string name="toast_channel_deleted1">사전설정 채널에서 성공적으로 제거되었습니다.</string>  
-    <string name="toast_channel_added1">사전설정 채널에 성공적으로 추가되었습니다.</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"FM Radio"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"청취 가능한 채널을 찾았습니다."</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"청취 가능한 채널을 찾을 수 없습니다."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"스피커"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"이어폰"</string>
+    <string name="save" msgid="7204164791719833151">"저장"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"SD 카드가 없습니다."</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"SD 카드 공간이 부족합니다."</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"녹음기에 내부 오류가 발생했습니다."</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"저장"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"삭제"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"여기에 파일 이름 입력"</string>
+    <string name="already_exists" msgid="3665755106404888637">"이미 존재하는 이름입니다."</string>
+    <string name="not_available" msgid="6709882926236090124">"현재 청취할 수 없습니다."</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"이전 채널"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"주파수 낮추기"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"주파수 높이기"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"다음 채널"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"즐겨찾기에 추가"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"녹음 시작"</string>
+    <string name="more" msgid="8975740653205119861">"더보기"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"녹음 중..."</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"FM 라디오 재생 또는 중지"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"녹음 시작"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"저장된 녹음 파일"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"새로고침"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"청취를 시작하려면 헤드폰(안테나로 사용됨)을 연결하세요."</string>
+    <string name="station_title" msgid="4027617747760605320">"라디오 채널"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"채널 새로고침"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"채널을 찾을 수 없습니다."</string>
+    <string name="minutes_label" msgid="3225846493097986594">"분"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"초"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"녹음 중"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"녹음 중입니다."</string>
+    <string name="stop_record" msgid="4787351642158009287">"녹음 중지"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"녹음을 저장할까요?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"녹음 파일을 들으려면 Play 뮤직 앱을 여세요."</string>
+    <string name="favorites" msgid="2732520024474501799">"즐겨찾기"</string>
+    <string name="rename" msgid="1770973764866255260">"이름 바꾸기"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"채널 이름 입력"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"즐겨찾기 삭제"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"녹음이 저장되었습니다."</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"녹음이 저장되지 않았습니다."</string>
+    <string name="toast_listen" msgid="2014315478895754055">"듣기"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"채널 이름이 변경되었습니다."</string>
 </resources>

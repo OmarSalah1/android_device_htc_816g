@@ -1,108 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">FM-Übertragung</string>
-    <string name="favorite_manager">Senderliste</string>
-    <string name="add_to_favorite">Zu Favoriten hinzufügen</string>
-    <string name="optmenu_search">Suche</string>
-    <string name="optmenu_exit">Ausgang</string>
-    <string name="contmenu_title">Vorgänge</string>
-    <string name="contmenu_item_edit">Bearbeiten</string>
-    <string name="contmenu_item_delete">Aus Favoriten entfernen</string>
-    <string name="dlg_noantenna_text">Sie benötigen einen Kopfhörer als Antenne. Bitte schließen Sie Ihren Kopfhörer an.</string>
-    <string name="dlg_noantenna_title">Kopfhörer anschließen</string>
-    <string name="btn_yes">Ja</string>
-    <string name="btn_no">Nein</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_cancel">Abbrechen</string>
-    <string name="dlg_progress_title">Suchen</string>
-    <string name="dlg_progress_text">Kanalsuche…</string>
-    <string name="dlg_addedit_station_name">Name:</string>
-    <string name="dlg_addedit_station_freq">Häufigkeit:</string>
-    <string name="dlg_addedit_title_edit">Kanal bearbeiten</string>
-    <string name="default_station_name">Neuer Kanal</string>
-    <string name="dlg_delete_confirm_title">Löschung des Senders bestätigen</string>
-    <string name="dlg_delete_confirm_text">Möchten Sie diesen Sender wirklich löschen?</string>
-    <string name="toast_favorite_full">Der Sender kann nicht zur Favoritenliste hinzugefügt werden, da die Liste voll ist.</string>
-    <string name="toast_already_favorite">Dieser Sender befindet sich bereits in der Favoritenliste.</string>
-    <string name="toast_channel_deleted">Erfolgreich aus Favoriten entfernt.</string>
-    <string name="toast_channel_added">Erfolgreich zu Favoriten hinzugefügt.</string>
-    <string name="toast_channel_searched">Entdeckte verfügbare Kanäle:</string>
-    <string name="toast_cannot_search">Suche nach verfügbarem Kanal nicht möglich.</string>
-    <string name="optmenu_rds_settings">RDS-Einstellungen</string>
-    <string name="dlg_rds_settings_channel_information">Kanalinformationen</string>
-    <string name="dlg_rds_settings_alternative_frequency">Alternative Frequenz</string>
-    <string name="more">Mehr Apps</string>
-    <string name="power">Potenz</string>
-    <string name="sound_mode">Klangmodus</string>
-    <string name="edit_frequency_overwrite_text">"Überschreiben"</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">Kopfhörer zur Nutzung als Radioantenne anschließen.</string>
-    <!-- For FM recording -->
-    <string name="fm_recorder_name">UKW-Rekorder</string>
-    <string name="toast_recording_lost_warning">Ihre Aufzeichnung geht beim Entfernen der SD-Karte verloren!</string>
-    <string name="toast_start_recording">Aufzeichnung starten…</string>
-    <string name="toast_sdcard_missing">Ihre SD-Karte fehlt!</string>
-    <string name="toast_sdcard_insufficient_space">Nicht genügend Platz auf der SD-Karte!</string>
-    <string name="toast_recorder_internal_error">Im Recorder ist ein interner Fehler aufgetreten!</string>
-    <string name="toast_player_internal_error">Im Player ist ein interner Fehler aufgetreten!</string>
-    <string name="toast_powerup_before_record_warning">Bitte zuerst UKW einschalten!</string>
-    <string name="optmenu_record">UKW aufnehmen</string>
-    <string name="btn_save_recording">Speichern</string>
-    <string name="btn_discard_recording">Verwerfen</string>
-    <string name="edit_recording_name_hint">Hier Dateinamen eingeben</string>
-    <string name="dlg_save_recording_title">Aufzeichnungsdatei speichern</string>
-    <string name="dlg_save_recording_storage_warning">Nicht genügend Speicher! Möchten Sie die aktuelle Aufzeichnung speichern?</string>
-    <string name="already_exists">Existiert bereits</string>
-    <string name="toast_invalid_frequency">Ungültige Frequenz für aktuellen Standort. Gültiger Frequenzbereich: 87,5-108,0.</string>
-    <string name="toast_invalid_input">Die letzte Eingabe war ungültig, gültiger Wert: 0 oder 5.</string>
-    <string name="toast_in_call">Sie können das UKW-Radio während eines Telefonats nicht starten.</string>
-    <string name="empty_list">Kanalliste ist leer.</string>
-    <string name="optmenu_speaker">"Lautsprecher"</string>
-    <string name="optmenu_earphone">Headset</string>
-    <string name="not_available">Derzeit nicht verfügbar</string>
-    <string name="add_to_favorite1">Zu voreingestellten Kanälen hinzufügen</string>  
-    <string name="contmenu_item_delete1">Aus voreingestellten Kanälen entfernen</string>  
-    <string name="dlg_delete_confirm_title1">Entfernung aus voreingestellten Kanälen bestätigen</string>  
-    <string name="dlg_delete_confirm_text1">Möchten Sie diesen Kanal wirklich aus den voreingestellten Kanälen entfernen?</string>  
-    <string name="toast_favorite_full1">Der Kanal kann nicht zur Liste voreingestellter Kanäle hinzugefügt werden, da diese voll ist.</string>  
-    <string name="toast_already_favorite1">Dieser Kanal ist bereits in der Liste voreingestellter Kanäle.</string>  
-    <string name="toast_channel_deleted1">Erfolgreich aus voreingestellten Kanälen entfernt.</string>  
-    <string name="toast_channel_added1">Erfolgreich zu voreingestellten Kanälen hinzufügt.</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"UKW-Radio"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"Verfügbare Sender gefunden:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"Verfügbarer Sender konnte nicht gefunden werden"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"Lautsprecher"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"Kopfhörer"</string>
+    <string name="save" msgid="7204164791719833151">"Speichern"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"Ihre SD-Karte fehlt."</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"Nicht genügend Speicherplatz auf der SD-Karte"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"Im Rekorder ist ein interner Fehler aufgetreten."</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"Speichern"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"Verwerfen"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"Dateinamen hier eingeben"</string>
+    <string name="already_exists" msgid="3665755106404888637">"bereits vorhanden"</string>
+    <string name="not_available" msgid="6709882926236090124">"Zurzeit nicht verfügbar"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"Vorheriger Sender"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"Frequenz verringern"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"Frequenz erhöhen"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"Nächster Sender"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"Zu Favoriten hinzufügen"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"Aufnahme starten"</string>
+    <string name="more" msgid="8975740653205119861">"Mehr"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"Aufnahme läuft…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"UKW"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"UKW-Radio starten oder stoppen"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"Aufnahme starten"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"Gespeicherte Aufnahmen"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"Aktualisieren"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"Um Radio zu hören, stecken Sie Kopfhörer ein, die als Antenne verwendet werden."</string>
+    <string name="station_title" msgid="4027617747760605320">"Radiosender"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"Sender werden gesucht"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"Keine Sender gefunden"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"m"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"s"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"Aufnahme läuft"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"Aufnahme läuft"</string>
+    <string name="stop_record" msgid="4787351642158009287">"Aufzeichnung beenden"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"Aufnahme speichern?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"Um Aufnahmen anzuhören, öffnen Sie die Play Musik App."</string>
+    <string name="favorites" msgid="2732520024474501799">"Favoriten"</string>
+    <string name="rename" msgid="1770973764866255260">"Umbenennen"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"Sendernamen eingeben"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"Favoriten löschen"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"Aufnahme gespeichert"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"Aufnahme nicht gespeichert"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"Hören"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"Der Sender wurde umbenannt."</string>
 </resources>

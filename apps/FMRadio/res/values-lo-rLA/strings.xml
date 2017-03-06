@@ -1,98 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--
-  Copyright Statement:
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">ວິທະຍຸ FM</string>
-    <string name="dlg_progress_title">ຊອກຫາ</string>
-    <string name="btn_yes">ແມ່ນແລ້ວ</string>
-    <string name="optmenu_speaker">ຜູ້ຢິງເວົ້າ</string>
-    <string name="edit_frequency_overwrite_text">ຂຽນກ່ຽວກັບການເທິງ</string>
-    <string name="toast_start_recording">ເລີ່ມຕົ້ນການບັນທຶກ…</string>
-    <string name="fm_unit">MHz</string>
-    <string name="empty_list">ບັນຊີລາຍຊື່ຊ່ອງເປົ່າຫວ່າງ.</string>
-    <string name="optmenu_rds_settings">ການປັບຄ່າ RDS </string>
-    <string name="toast_channel_searched">ຊອກຫາຊ່ອງທາງອອກທີ່ມີຢູ່:</string>
-    <string name="already_exists">ມີແລ້ວ</string>
-    <string name="dlg_noantenna_title">ສຽບໃນໂທລະສັບຫູ</string>
-    <string name="add_to_favorite">ເພີ່ມເຖິງຄວາມຕ້ອງການ</string>
-    <string name="toast_sdcard_insufficient_space">ຊ່ອງບັດ SD ບໍ່ພຽງພໍ!</string>
-    <string name="dlg_delete_confirm_title">ຢືນຢັນອອກຈາກຄວາມຕ້ອງການ</string>
-    <string name="optmenu_record">ການບັນທຶກການ FM</string>
-    <string name="optmenu_earphone">ໂທລະສັບຫູ</string>
-    <string name="sound_mode">ຮູບແບບສຽງ</string>
-    <string name="toast_already_favorite">ຊ່ອງທາງນີ້ແມ່ນຢູ່ໃນບັນຊີລາຍຊື່ຂອງຄວາມຕ້ອງການ.</string>
-    <string name="not_available">ປະຈຸບັນຍັງບໍ່ທັນມີ</string>
-    <string name="toast_channel_deleted">ການໂຍກຍ້າຍສົບຜົນສໍາເລັດຈາກຄວາມຕ້ອງການ.</string>
-    <string name="toast_channel_added">ເພີ່ມສົບຜົນສໍາເລັດກັບຄວາມຕ້ອງການ.</string>
-    <string name="dlg_rds_settings_channel_information">ຂໍ້ມູນຂ່າວສານທາງ</string>
-    <string name="toast_favorite_full">ບໍ່ສາມາດເພີ່ມຊ່ອງທາງໃນການບັນຊີຂອງທ່ານເພາະວ່າມັນເປັນອັນເຕັມທີ່.</string>
-    <string name="btn_save_recording">ຊ່ວຍປະຢັດ</string>
-    <string name="optmenu_search">ຊອກຫາ</string>
-    <string name="dlg_rds_settings_alternative_frequency">ຄວາມຖີ່ຂອງການເລືອກ</string>
-    <string name="dlg_progress_text">ຊ່ອງທາງການຊອກຫາ…</string>
-    <string name="optmenu_exit">ອອກໄປ</string>
-    <string name="more">ອ່ານຕໍ່</string>
-    <string name="btn_discard_recording">ຖິ້ມ</string>
-    <string name="contmenu_item_edit">ດັດແກ້</string>
-    <string name="toast_cannot_search">ບໍ່ສາມາດຊອກຫາຊ່ອງທາງອອກທີ່ມີຢູ່.</string>
-    <string name="dlg_save_recording_storage_warning">ການເກັບຮັກສາບໍ່ພຽງພໍ! ທ່ານຕ້ອງການທີ່ຈະຊ່ວຍປະຢັດການບັນທຶກການປະຈຸບັນ?</string>
-    <string name="toast_in_call">ທ່ານບໍ່ສາມາດເປີດວິທະຍຸ FM ໃນເວລາທີ່ທ່ານຢູ່ໃນການເອີ້ນ.</string>
-    <string name="dlg_addedit_station_freq">ຄວາມຖີ່ຂອງການ:</string>
-    <string name="toast_recorder_internal_error">ເປັນຄວາມຜິດພາດທີ່ເກີດຂຶ້ນພາຍໃນໃນການບັນທຶກ!</string>
-    <string name="dlg_save_recording_title">ຊ່ວຍປະຢັດໄຟລ໌ບັນທຶກ</string>
-    <string name="btn_ok">ຖືກແລ້ວ</string>
-    <string name="power">ພະລັງງານ</string>
-    <string name="contmenu_item_delete">ເອົາອອກຈາກຂອງ</string>
-    <string name="toast_powerup_before_record_warning">ກະລຸນາພະລັງງານສູງ FM ທໍາອິດ!</string>
-    <string name="fm_recorder_name">ເຄື່ອງມືບັນທຶກ FM</string>
-    <string name="toast_recording_lost_warning">ການບັນທຶກຂອງທ່ານຈະໄດ້ຮັບການສູນເສຍເນື່ອງຈາກການໂຍກຍ້າຍ SD!</string>
-    <string name="dlg_delete_confirm_text">ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການທີ່ຈະເອົາຊ່ອງທາງນີ້ຈາກຂອງ?</string>
-    <string name="default_station_name">ໃຫມ່ຊ່ອງ</string>
-    <string name="btn_cancel">ຍົກເລີກການ</string>
-    <string name="contmenu_title">ການປະຕິບັດ</string>
-    <string name="btn_no">ບໍ່</string>
-    <string name="favorite_manager">ບັນຊີລາຍຊື່ຊ່ອງ</string>
-    <string name="toast_invalid_frequency">ຄວາມຖີ່ຂອງການບໍ່ຖືກຕ້ອງສໍາລັບສະຖານທີ່ໃນປະຈຸບັນ. ຂອບເຂດຄວາມຖີ່ຂອງຄວາມຖືກຕ້ອງ: 87.5-108.0</string>
-    <string name="toast_sdcard_missing">ບັດ SD ຂອງທ່ານໄດ້ຖືກຫາຍ!</string>
-    <string name="dlg_addedit_station_name">ຊື່ຂອງທ່ານ:</string>
-    <string name="dlg_addedit_title_edit">ດັດແກ້ການຊ່ອງ</string>
-    <string name="toast_invalid_input">ການປະກອບບໍ່ຖືກຕ້ອງທີ່ສຸດ, ມູນຄ່າຖືກຕ້ອງແມ່ນ 0 ຫຼື 5.</string>
-    <string name="edit_recording_name_hint">ຊື່ໄຟລ໌ທີ່ນີ້</string>
-    <string name="dlg_noantenna_text">ທ່ານຈໍາເປັນຕ້ອງໂທລະສັບຫູເປັນສາຍອາກາດ. ກະລຸນາສຽບໃນໂທລະສັບຫູຂອງທ່ານ.</string>
-    <string name="toast_player_internal_error">ເປັນຄວາມຜິດພາດພາຍໃນທີ່ເກີດຂຶ້ນໃນລະ!</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"ວິທະຍຸ FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"ຊອກ​ຫາ​ສະ​ຖາ​ນີ​ທີ່​ມີ​ຢູ່​ແລ້ວ:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"ບໍ່​ສາ​ມາດ​ຊອກ​ຫາ​ສະ​ຖາ​ນີ​ທີ່​ມີ​ຢູ່​ໄດ້."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"ລຳໂພງ"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"ຊຸດ​ຟັງ​ຫູ"</string>
+    <string name="save" msgid="7204164791719833151">"ບັນທຶກ"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"ແຜ່ນ SD ຂອງ​ທ່ານ​ຂາດ​ໄປ!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"ເນື້ອ​ທີ່​ແຜ່ນ SD ບໍ່​ພຽງ​ພໍ!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"ເກີດ​ຄວາມ​ຜິດ​ພາດ​ພາຍ​ໃນ​ຂຶ້ນ​ຢູ່​ໃນ​ການ​ບັນ​ທຶກ!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"ບັນທຶກ"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"ລຶບ​ຖິ້​ມ"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"ພິມ​ຊື່​ໄຟ​ລ໌​ທີ່​ນີ້"</string>
+    <string name="already_exists" msgid="3665755106404888637">"ມີ​ຢູ່​ແລ້ວ"</string>
+    <string name="not_available" msgid="6709882926236090124">"ບໍ່​ມີ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"ສະ​ຖາ​ນີ​ຜ່ານ​ມາ"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"ຫຼຸດ​ຄວາມ​ຖີ່"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"ເພີ່ມ​ຄວາມ​ຖີ່"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"ສະ​ຖາ​ນີ​ຕໍ່​ໄປ"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"ເພີ່ມ​ໃສ່​ລາຍ​ການ​ທີ່​ມັກ"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"ເລີ່ມ​ການ​ບັນ​ທຶກ"</string>
+    <string name="more" msgid="8975740653205119861">"ເພີ່ມເຕີມ"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"ກຳ​ລັງ​ບັນ​ທຶກ…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"ຫຼິ້ນ ຫຼື​ຢຸດ​ວິ​ທະ​ຍຸ FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"ເລີ່ມ​ການ​ບັນ​ທຶກ"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"ການ​ບັນ​ທຶກ​ທີ່​ບັນ​ທຶກ​ໄວ້"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"ຣີ​ເຟ​ຣ​ຊ"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"ເພື່ອ​ເລີ່ມ​ຟັງ, ສຽບ​ສາຍ​ຟັງ​ຫູ​ໃສ່ (ໃຊ້​ເປັນ​ອັງ​ແຕ່ນ)."</string>
+    <string name="station_title" msgid="4027617747760605320">"ສະ​ຖາ​ນີ​ວິ​ທະ​ຍຸ"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"ກຳ​ລັງ​ເອົາ​ສະ​ຖາ​ນີ"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"ບໍ່​ພົບ​ສະ​ຖາ​ນີ"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"​ຈ"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"​ສ"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"ກຳ​ລັງ​ບັນ​ທຶກ"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"ການ​ບັນ​ທຶກ​ຄືບ​ໜ້າ​ຢູ່"</string>
+    <string name="stop_record" msgid="4787351642158009287">"ຢຸດ​ການ​ບັນ​ທຶກ"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"ບັນ​ທຶກ​ເອົາ​ການ​ບັນ​ທຶກ​ບໍ?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"ເພື່ອ​ຟັງ​ການ​ບັນ​ທຶກ, ເປີດ​ແອັບຯ Play Music."</string>
+    <string name="favorites" msgid="2732520024474501799">"​ລາຍ​ການ​ທີ່​ມັກ"</string>
+    <string name="rename" msgid="1770973764866255260">"ປ່ຽນຊື່"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"ປ້ອນ​ຊື່​ສະ​ຖາ​ນີ​ເຂົ້າ​ໄປ"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"ເອົາ​ລາຍ​ການ​ທີ່​ມັກ​ອອກ"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"ບັນ​ທຶກ​ເອົາ​ການ​ບັນ​ທຶກ​ແລ້ວ"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"ການ​ບັນ​ທຶກ​ບໍ່​ຖືກ​ບັນ​ທຶກ​ໄວ້"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"ຟັງ"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"ປ່ຽນ​ຊື່​ສະ​ຖາ​ນີ​ແລ້ວ"</string>
 </resources>

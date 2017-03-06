@@ -1,108 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">FM rádio</string>
-    <string name="favorite_manager">Seznam kanálů</string>
-    <string name="add_to_favorite">Přidat k oblíbeným položkám</string>
-    <string name="optmenu_search">Hledat</string>
-    <string name="optmenu_exit">Konec</string>
-    <string name="contmenu_title">Operace</string>
-    <string name="contmenu_item_edit">Úpravy</string>
-    <string name="contmenu_item_delete">Odebrat z oblíbených položek</string>
-    <string name="dlg_noantenna_text">Jsou zapotřebí sluchátka jako anténa. Připojte sluchátka.</string>
-    <string name="dlg_noantenna_title">Připojit sluchátka</string>
-    <string name="btn_yes">Ano</string>
-    <string name="btn_no">Ne</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_cancel">Storno</string>
-    <string name="dlg_progress_title">Vyhledat</string>
-    <string name="dlg_progress_text">Prohledat kanály...</string>
-    <string name="dlg_addedit_station_name">Název:</string>
-    <string name="dlg_addedit_station_freq">Frekvence:</string>
-    <string name="dlg_addedit_title_edit">Upravit kanál</string>
-    <string name="default_station_name">Nový kanál</string>
-    <string name="dlg_delete_confirm_title">Potvrdit odebrání z oblíbených</string>
-    <string name="dlg_delete_confirm_text">Opravdu chcete odebrat tento kanál z oblíbených?</string>
-    <string name="toast_favorite_full">Nelze přidat kanál do seznamu oblíbených, protože je plný.</string>
-    <string name="toast_already_favorite">Tento kanál je již v seznamu oblíbených.</string>
-    <string name="toast_channel_deleted">Úspěšně odebráno z oblíbených položek.</string>
-    <string name="toast_channel_added">Úspěšně přidáno k oblíbeným položkám.</string>
-    <string name="toast_channel_searched">Vyhledané dostupné kanály:</string>
-    <string name="toast_cannot_search">Nelze vyhledat dostupný kanál.</string>
-    <string name="toast_invalid_frequency">Neplatná frekvence pro aktuální umístění. Platný rozsah frekvence: 87,5-108,0.</string>
-    <string name="optmenu_rds_settings">Nastavení RDS</string>
-    <string name="dlg_rds_settings_channel_information">Informace o kanálu</string>
-    <string name="dlg_rds_settings_alternative_frequency">Náhradní frekvence</string>
-    <string name="sound_mode">Režim zvuku</string>
-    <string name="more">Další aplikace</string>
-    <string name="power">síla</string>
-    <string name="edit_frequency_overwrite_text">"Přepsat"</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">Připojte sluchátka jako rozhlasovou anténu.</string>
-    <!-- For FM recording -->
-    <string name="fm_recorder_name">FM rekordér</string>
-    <string name="toast_recording_lost_warning">Váš záznam bude ztracen z důvodu vyjmutí SD!</string>
-    <string name="toast_start_recording">Spustit záznam…</string>
-    <string name="toast_sdcard_missing">Karta SD chybí!</string>
-    <string name="toast_sdcard_insufficient_space">Nedostatek prostoru na kartě SD!</string>
-    <string name="toast_recorder_internal_error">Došlo k vnitřní chybě rekordéru!</string>
-    <string name="toast_player_internal_error">Došlo k vnitřní chybě přehrávače!</string>
-    <string name="toast_powerup_before_record_warning">Nejdříve zapněte napájení FM!</string>
-    <string name="optmenu_record">Záznam FM</string>
-    <string name="btn_save_recording">Uložit</string>
-    <string name="btn_discard_recording">Zahodit</string>
-    <string name="edit_recording_name_hint">Zde zadejte název souboru</string>
-    <string name="dlg_save_recording_title">Uložit soubor se záznamem</string>
-    <string name="dlg_save_recording_storage_warning">Nedostatek úložného prostoru. Chcete uložit aktuální záznam?</string>
-    <string name="already_exists">již existuje</string>
-    <string name="toast_invalid_input">Poslední neplatné zadání, platná hodnota je 0 nebo 5.</string>
-    <string name="toast_in_call">Nelze spustit FM rádio během volání.</string>
-    <string name="empty_list">Seznam kanálů je prázdný.</string>
-    <string name="optmenu_speaker">"Reproduktor"</string>
-    <string name="optmenu_earphone">Sluchátka s mikrofonem</string>
-    <string name="not_available">Aktuálně není k dispozici</string>
-    <string name="add_to_favorite1">Přidat k předvoleným kanálům</string>  
-    <string name="contmenu_item_delete1">Odebrat z předvolených kanálů</string>  
-    <string name="dlg_delete_confirm_title1">Potvrdit odebrání z předvolených kanálů</string>  
-    <string name="dlg_delete_confirm_text1">Opravdu chcete odebrat tento kanál z předvolených kanálů?</string>  
-    <string name="toast_favorite_full1">Nelze přidat kanál do seznamu předvolených kanálů, protože je plný.</string>  
-    <string name="toast_already_favorite1">Tento kanál je již v seznamu předvolených kanálů.</string>  
-    <string name="toast_channel_deleted1">Úspěšně odebráno z předvolených kanálů.</string>  
-    <string name="toast_channel_added1">Úspěšně přidáno k předvoleným kanálům.</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"Rádio FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"Vyhledané dostupné stanice:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"Dostupná stanice nebyla nalezena."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"Reproduktor"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"Sluchátko"</string>
+    <string name="save" msgid="7204164791719833151">"Uložit"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"Není vložena SD karta."</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"Na SD kartě není dostatek místa."</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"V záznamu došlo k interní chybě."</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"Uložit"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"Zahodit"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"Sem zadejte název souboru"</string>
+    <string name="already_exists" msgid="3665755106404888637">"název již existuje"</string>
+    <string name="not_available" msgid="6709882926236090124">"Aktuálně nedostupné"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"Předchozí stanice"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"Snížit frekvenci"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"Zvýšit frekvenci"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"Další stanice"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"Přidat do oblíbených"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"Zahájit nahrávání"</string>
+    <string name="more" msgid="8975740653205119861">"Další"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"Nahrávání…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"Spustit nebo zastavit rádio FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"Zahájit nahrávání"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"Uložené nahrávky"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"Obnovit"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"Chcete-li začít poslouchat, připojte sluchátka (slouží jako anténa)."</string>
+    <string name="station_title" msgid="4027617747760605320">"Rádiové stanice"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"Načítání stanic"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"Nebyly nalezeny žádné stanice"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"M"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"S"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"Nahrávání"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"Probíhá nahrávání"</string>
+    <string name="stop_record" msgid="4787351642158009287">"ZASTAVIT NAHRÁVÁNÍ"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"Chcete nahrávku uložit?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"Chcete-li poslouchat nahrávky, spusťte aplikaci Hudba Play."</string>
+    <string name="favorites" msgid="2732520024474501799">"Oblíbené"</string>
+    <string name="rename" msgid="1770973764866255260">"Přejmenovat"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"Zadejte název stanice"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"Odstranit z oblíbených"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"Nahrávka byla uložena"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"Nahrávka nebyla uložena"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"POSLOUCHAT"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"Název stanice byl změněn"</string>
 </resources>

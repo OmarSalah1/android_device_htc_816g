@@ -1,108 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">วิทยุ FM</string>
-    <string name="favorite_manager">รายการสถานี</string>
-    <string name="add_to_favorite">เพิ่มลงในรายการโปรด</string>
-    <string name="optmenu_search">ค้นหา</string>
-    <string name="optmenu_exit">ออก</string>
-    <string name="contmenu_title">การใช้งาน</string>
-    <string name="contmenu_item_edit">แก้ไข</string>
-    <string name="contmenu_item_delete">ลบออกจากรายการที่ชอบ</string>
-    <string name="dlg_noantenna_text">คุณจำเป็นต้องมีหูฟังเพื่อใช้เป็นเสาอากาศ โปรดเสียบหูฟังของคุณ</string>
-    <string name="dlg_noantenna_title">เสียบหูฟัง</string>
-    <string name="btn_yes">"ใช่"</string>
-    <string name="btn_no">"ไม่"</string>
-    <string name="btn_ok">ตกลง</string>
-    <string name="btn_cancel">ยกเลิก</string>
-    <string name="dlg_progress_title">ค้นหา</string>
-    <string name="dlg_progress_text">ค้นหาสถานี...</string>
-    <string name="dlg_addedit_station_name">ชื่อ:</string>
-    <string name="dlg_addedit_station_freq">ความถี่:</string>
-    <string name="dlg_addedit_title_edit">แก้ไขแชนเนล</string>
-    <string name="default_station_name">สถานีใหม่</string>
-    <string name="dlg_delete_confirm_title">ยืนยันการลบ ช่อง</string>
-    <string name="dlg_delete_confirm_text">แน่ใจหรือไม่ว่าคุณต้องการลบช่องนี้?</string>
-    <string name="toast_favorite_full">ไม่สามารถเพิ่มช่องไปยังรายการโปรดได้ เนื่องจากรายการเต็ม</string>
-    <string name="toast_already_favorite">ช่องนี้อยู่ในรายการโปรดอยู่แล้ว</string>
-    <string name="toast_channel_deleted">ลบออกจากรายการที่ชอบสำเร็จแล้ว</string>
-    <string name="toast_channel_added">เพิ่มลงในรายการที่ชอบสำเร็จแล้ว</string>
-    <string name="toast_channel_searched">ค้นหาจากแชนเนลที่มี:</string>
-    <string name="toast_cannot_search">ไม่สามารถค้นหาจากแชนเนลที่มี</string>
-    <string name="optmenu_rds_settings">การตั้งค่า RDS</string>
-    <string name="dlg_rds_settings_channel_information">ข้อมูลแชนเนล</string>
-    <string name="dlg_rds_settings_alternative_frequency">ความถี่ทางเลือก</string>
-    <string name="more">เพิ่มเติม</string>
-    <string name="power">เปิด/ปิด</string>
-    <string name="sound_mode">โหมดเสียง</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">เสียบหูฟังเพื่อใช้เป็น เสาอากาศวิทยุ</string>
-     <!-- For FM recording -->
-    <string name="edit_frequency_overwrite_text">"เขียนทับ"</string>
-     <string name="fm_recorder_name">บันทึกเสียงวิทยุ</string>
-    <string name="toast_recording_lost_warning">การบันทึกของคุณจะหายไปเนื่องจากการถอด SD ออก!</string>
-    <string name="toast_start_recording">เริ่มบันทึกเสียง</string>
-    <string name="toast_sdcard_missing">การ์ด SD ของคุณหายไป</string>
-    <string name="toast_sdcard_insufficient_space">มีเนื้อที่ว่างในการ์ด SD ไม่เพียงพอ!</string>
-    <string name="toast_recorder_internal_error">เกิดความผิดพลาดภายในในตัวเครื่องบันทึก!</string>
-    <string name="toast_player_internal_error">เกิดความผิดพลาดภายในในตัวเครื่องเล่น!</string>
-    <string name="toast_powerup_before_record_warning">ขั้นแรกกรุณาเปิด FM!</string>
-    <string name="optmenu_record">บันทึกเสียงวิทยุ</string>
-    <string name="btn_save_recording">บันทึก</string>
-    <string name="btn_discard_recording">ยกเลิก</string>
-    <string name="edit_recording_name_hint">พิมพ์ชื่อไฟล์ที่นี่</string>
-    <string name="dlg_save_recording_title">บันทึกไฟล์อัดเสียง</string>
-    <string name="dlg_save_recording_storage_warning">มีเนื้อที่เก็บไม่เพียงพอ! คุณต้องการบันทึกการบันทึกปัจจุบันหรือไม่</string>
-    <string name="already_exists">มีอยู่แล้ว</string>
-    <string name="toast_invalid_frequency">ความถี่ใช้ไม่ได้สำหรับที่ตั้งปัจจุบัน ช่วงความถี่ที่ใช้ได้: 87.5-108.0.</string>
-    <string name="toast_invalid_input">ข้อมูลที่ป้อนล่าสุดไม่ถูกต้อง ค่าที่ถูกต้องคือ 0 หรือ 5</string>
-    <string name="toast_in_call">คุณไม่สามารถเปิดใช้งานวิทยุเอฟเอ็มได้เมื่อคุณกำลังโทร</string>
-    <string name="empty_list">รายการสถานีว่างอยู่</string>
-    <string name="optmenu_speaker">"ลำโพง"</string>
-    <string name="optmenu_earphone">หูฟัง</string>
-    <string name="not_available">ขณะนี้ใช้ไม่ได้</string>
-    <string name="add_to_favorite1">เพิ่มลงในช่องที่ตั้งไว้</string>  
-    <string name="contmenu_item_delete1">ลบออกจากช่องที่ตั้งไว้</string>  
-    <string name="dlg_delete_confirm_title1">ยืนยันการลบออกจากช่องที่ตั้งไว้</string>  
-    <string name="dlg_delete_confirm_text1">คุณแน่ใจว่าต้องการลบช่องนี้ออกจากช่องที่ตั้งไว้หรือไม่</string>  
-    <string name="toast_favorite_full1">ไม่สามารถเพิ่มช่องลงในรายการช่องที่ตั้งไว้ได้ เนื่องจากรายการเต็ม</string>  
-    <string name="toast_already_favorite1">ช่องนี้มีอยู่ในรายการช่องที่ตั้งไว้แล้ว</string>  
-    <string name="toast_channel_deleted1">ลบออกจากช่องที่ตั้งไว้สำเร็จแล้ว</string>  
-    <string name="toast_channel_added1">เพิ่มลงในช่องที่ตั้งไว้สำเร็จแล้ว</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"วิทยุ FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"สถานีวิทยุที่พบ:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"ไม่พบสถานีที่พร้อมใช้งาน"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"ลำโพง"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"หูฟัง"</string>
+    <string name="save" msgid="7204164791719833151">"บันทึก"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"ไม่มีการ์ด SD!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"พื้นที่ในการ์ด SD ไม่เพียงพอ!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"เกิดข้อผิดพลาดภายในตัวบันทึก!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"บันทึก"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"ยกเลิก"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"พิมพ์ชื่อไฟล์ที่นี่"</string>
+    <string name="already_exists" msgid="3665755106404888637">"มีอยู่แล้ว"</string>
+    <string name="not_available" msgid="6709882926236090124">"ใช้ไม่ได้ในขณะนี้"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"สถานีก่อนหน้า"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"ลดความถี่"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"เพิ่มความถี่"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"สถานีถัดไป"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"เพิ่มไปยังรายการโปรด"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"เริ่มการบันทึก"</string>
+    <string name="more" msgid="8975740653205119861">"เพิ่มเติม"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"กำลังบันทึก…"</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"เล่นหรือหยุดวิทยุ FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"เริ่มการบันทึก"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"รายการที่บันทึกไว้"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"รีเฟรช"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"เริ่มฟังวิทยุโดยเสียบหูฟัง (ที่ใช้เป็นสายอากาศ)"</string>
+    <string name="station_title" msgid="4027617747760605320">"สถานีวิทยุ"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"กำลังสแกนสถานีวิทยุ"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"ไม่พบสถานี"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"น."</string>
+    <string name="seconds_label" msgid="3998011734682420096">"ว."</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"กำลังบันทึก"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"อยู่ระหว่างบันทึก"</string>
+    <string name="stop_record" msgid="4787351642158009287">"หยุดการบันทึก"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"บันทึกรายการไหม"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"หากต้องการฟังรายการที่บันทึกไว้ ให้เปิดฟังด้วยแอป Play เพลง"</string>
+    <string name="favorites" msgid="2732520024474501799">"รายการโปรด"</string>
+    <string name="rename" msgid="1770973764866255260">"เปลี่ยนชื่อ"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"ป้อนชื่อสถานี"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"นำรายการโปรดออก"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"บันทึกรายการแล้ว"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"ไม่ได้บันทึกรายการ"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"ฟัง"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"เปลี่ยนชื่อสถานีแล้ว"</string>
 </resources>

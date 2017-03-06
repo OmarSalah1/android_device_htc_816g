@@ -1,108 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright Statement:
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
 
-  This software/firmware and related documentation ("MediaTek Software") are
-  protected under relevant copyright laws. The information contained herein is
-  confidential and proprietary to MediaTek Inc. and/or its licensors. Without
-  the prior written permission of MediaTek inc. and/or its licensors, any
-  reproduction, modification, use or disclosure of MediaTek Software, and
-  information contained herein, in whole or in part, shall be strictly
-  prohibited.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  MediaTek Inc. (C) 2011-2014. All rights reserved.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
-  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
-  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
-  ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
-  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
-  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
-  NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
-  RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
-  INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
-  TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
-  RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
-  OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
-  SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
-  RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
-  STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
-  ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
-  RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
-  MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
-  CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
 
-  The following software/firmware and/or related documentation ("MediaTek
-  Software") have been modified by MediaTek Inc. All revisions are subject to
-  any receiver's applicable license agreements with MediaTek Inc.
--->
-<resources>
-    <string name="app_name">Transmissão FM</string>
-    <string name="favorite_manager">Canais</string>
-    <string name="add_to_favorite">Adicionar aos Favoritos</string>
-    <string name="optmenu_search">Pesquisar</string>
-    <string name="optmenu_exit">Sair</string>
-    <string name="contmenu_title">Operações</string>
-    <string name="contmenu_item_edit">Editar</string>
-    <string name="contmenu_item_delete">Remover</string>
-    <string name="dlg_noantenna_text">Você precisa de um fone de ouvido como antena. Conecte seu fone de ouvido.</string>
-    <string name="dlg_noantenna_title">Conectar o fone de ouvido</string>
-    <string name="btn_yes">Sim</string>
-    <string name="btn_no">Não</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_cancel">Cancelar</string>
-    <string name="dlg_progress_title">A procurar</string>
-    <string name="dlg_progress_text">procurar canais...</string>
-    <string name="dlg_addedit_station_name">Nome:</string>
-    <string name="dlg_addedit_station_freq">Frequencia:</string>
-    <string name="dlg_addedit_title_edit">Editar canal</string>
-    <string name="default_station_name">Novo canal</string>
-    <string name="dlg_delete_confirm_title">Confirmar Exclusão de Canal</string>
-    <string name="dlg_delete_confirm_text">Tem certeza de que deseja excluir este canal?</string>
-    <string name="toast_favorite_full">Impossível adicionar o canal para a lista de favoritos porque ela está cheia.</string>
-    <string name="toast_already_favorite">Este canal já está na lista de favoritos.</string>
-    <string name="toast_channel_deleted">O canal é excluído da lista de favoritos.</string>
-    <string name="toast_channel_added">O canal é adicionado para lista de favoritos.</string>
-    <string name="toast_channel_searched">Procurado nos canais disponíveis:</string>
-    <string name="toast_cannot_search">Impossível encontrar canal disponível.</string>
-    <string name="optmenu_rds_settings">Config. RDS</string>
-    <string name="dlg_rds_settings_channel_information">Info. do canal</string>
-    <string name="dlg_rds_settings_alternative_frequency">Freqüência alternativa</string>
-    <string name="more">Mais Aplicativos</string>
-    <string name="power">potência</string>
-    <string name="sound_mode">Modo de som</string>
-    <string name="fm_unit">MHz</string>
-    <string name="no_antenna_info">Conecte seus fones de ouvido para usar como uma antena de rádio.</string>
-    <!-- For FM recording -->
-    <string name="edit_frequency_overwrite_text">"Substituir"</string>
-    <string name="fm_recorder_name">Gravador FM</string>
-    <string name="toast_recording_lost_warning">Sua gravação será perdida devido à removação do SD!</string>
-    <string name="toast_start_recording">Iniciar gravação…</string>
-    <string name="toast_sdcard_missing">Seu cartão SD está faltando!</string>
-    <string name="toast_sdcard_insufficient_space">Espaço insuficiente no cartão SD!</string>
-    <string name="toast_recorder_internal_error">Um erro interno ocorreu no gravador!</string>
-    <string name="toast_player_internal_error">Um erro interno ocorreu no reprodutor!</string>
-    <string name="toast_powerup_before_record_warning">Ligue FM primeiro!</string>
-    <string name="optmenu_record">Gravar FM</string>
-    <string name="btn_save_recording">Salvar</string>
-    <string name="btn_discard_recording">Descartar</string>
-    <string name="edit_recording_name_hint">Digite o nome do arquivo aqui</string>
-    <string name="dlg_save_recording_title">Salvar arquivo de gravação</string>
-    <string name="dlg_save_recording_storage_warning">Armazenamento insuficiente! Deseja salvar a gravação atual?</string>
-    <string name="already_exists">Já existe</string>
-    <string name="toast_invalid_frequency">Frequência inválida para a localização actual. Intervalo de frequências válidas: 87,5-108,0.</string>
-    <string name="toast_invalid_input">A última entrada inválida, valor válido é 0 ou 5.</string>
-    <string name="toast_in_call">Você não pode iniciar a Rádio FM quando esá er chamada.</string>
-    <string name="empty_list">Lista de canal está vazia.</string>
-    <string name="optmenu_speaker">"Alto-falante"</string>
-    <string name="optmenu_earphone">Headset</string>
-    <string name="not_available">Atualmente indisponível</string>
-    <string name="add_to_favorite1">Adicionar aos canais predefinidos</string>  
-    <string name="contmenu_item_delete1">Remover dos canais predefinidos</string>  
-    <string name="dlg_delete_confirm_title1">Confirmar a remoção dos canais predefinidos</string>  
-    <string name="dlg_delete_confirm_text1">Deseja realmente remover este canal dos canais predefinidos?</string>  
-    <string name="toast_favorite_full1">Não é possível adicionar o canal à lista de canais predefinidos porque a lista está cheia.</string>  
-    <string name="toast_already_favorite1">Este canal já se encontra na lista de canais predefinidos.</string>  
-    <string name="toast_channel_deleted1">Removido com sucesso dos canais predefinidos.</string>  
-    <string name="toast_channel_added1">Adicionado com sucesso aos canais predefinidos.</string>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"Rádio FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"Estações disponíveis encontradas:"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"Não é possível procurar as estações disponíveis."</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"Alto-falante"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"Fone de ouvido"</string>
+    <string name="save" msgid="7204164791719833151">"Salvar"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"Seu cartão SD está ausente."</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"Espaço insuficiente no cartão SD."</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"Ocorreu um erro interno no gravador."</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"Salvar"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"Descartar"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"Digite o nome do arquivo aqui"</string>
+    <string name="already_exists" msgid="3665755106404888637">"já existe"</string>
+    <string name="not_available" msgid="6709882926236090124">"Indisponível no momento"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"Estação anterior"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"Diminuir frequência"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"Aumentar frequência"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"Próxima estação"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"Adicionar aos favoritos"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"Iniciar gravação"</string>
+    <string name="more" msgid="8975740653205119861">"Mais"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"Gravando..."</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"Reproduzir ou parar rádio FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"Iniciar gravação"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"Gravações salvas"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"Atualizar"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"Para começar a ouvir, conecte os fones de ouvido (usados como antena)."</string>
+    <string name="station_title" msgid="4027617747760605320">"Estações de rádio"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"Captando estações"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"Nenhuma estação encontrada"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"M"</string>
+    <string name="seconds_label" msgid="3998011734682420096">"S"</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"Gravando"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"Gravação em andamento"</string>
+    <string name="stop_record" msgid="4787351642158009287">"PARAR GRAVAÇÃO"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"Salvar a gravação?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"Para ouvir as gravações, abra o app Play Música."</string>
+    <string name="favorites" msgid="2732520024474501799">"Favoritos"</string>
+    <string name="rename" msgid="1770973764866255260">"Renomear"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"Digite o nome da estação"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"Remover favorito"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"Gravação salva"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"A gravação não foi salva"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"OUVIR"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"A estação foi renomeada"</string>
 </resources>
